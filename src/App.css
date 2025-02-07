@@ -1,0 +1,61 @@
+/* App.css */
+
+/* 全体の背景やフォントなど */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+/* メインコンテナ */
+.app-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+/* カレンダーラッパ */
+.calendar-wrapper {
+  overflow-x: auto; /* 表がはみ出る場合に横スクロール */
+  margin-top: 1rem;
+}
+
+.calendar-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Arial', sans-serif;
+}
+
+.calendar-table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.calendar-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.task-cell {
+  background-color: #d9ecff;
+}
+
+.fixed-cell {
+  background-color: #ffd9d9;
+}
+
+.date-cell {
+  font-weight: bold;
+  background-color: #fafafa;
+}
